@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Fuggles&family=Roboto&family=Ubuntu&display=swap');
+
+/* font-family: 'Fuggles', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Dosis', sans-serif; */
+
+.sec1 {
+    min-height: 88.4vh;
+    padding: 40px 100px;
+    background-color: rgb(142, 188, 122);
+}
+
+.sec2 {
+    display: flex;
+    height: 87vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgb(21, 22, 20), -2px -2px 10px rgb(4, 14, 2);
+}
+
+.sec2-1 {
+    border-radius: 50px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    background-color: rgb(75, 129, 59);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.slick-slider {
+    width: 80% !important;
+}
+
+.slick-list {
+    text-align: center;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.imges {
+    width: 800px;
+    height: 550px;
+
+}
+
+.sec2-1-1 p {
+    font-size: 15px;
+    font-weight: 800;
+    color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.sec2-2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec2-2 h2 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 35px;
+    color: rgb(108, 186, 75);
+}
+
+.sec2-2 p {
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+}
+
+.sec2-2 img {
+    width: 100px;
+    height: 100px;
+}
+
+.sec2-3-1 img {
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+}
+
+.sec2-3-2 img {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.sec2-3 a {
+    text-decoration: none !important;
+}
+
+.sec2-3-1,
+.sec2-3-2 {
+    color: black !important;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 20px;
+    border: 2px solid rgba(21, 22, 20, 0.5);
+    border-radius: 5px;
+}
+
+.sec2-3-1:hover,
+.sec2-3-2:hover {
+    border: 2px solid rgba(21, 22, 20, 0.9);
+    box-shadow: 2px 2px 10px rgba(21, 22, 20, 0.7);
+    background-color: rgba(161, 227, 133, 0.6);
+}
+
+.sec2-3-1:active,
+.sec2-3-2:active {
+    box-shadow: inset 1px 1px 5px rgba(21, 22, 20, 0.7);
+}
+
+.sec2-3-1 p,
+.sec2-3-2 p {
+    cursor: pointer;
+    margin-bottom: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.sec2-3-2 {
+    margin-top: 50px;
+}
+
+.sec2-3 {
+    margin-top: 70px;
+}

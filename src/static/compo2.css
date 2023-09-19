@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Fuggles&family=Poppins:wght@300&family=Roboto&family=Ubuntu&display=swap');
+
+/* font-family: 'Fuggles', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+.main {
+    background-color: rgb(144, 179, 127);
+    min-height: 100vh;
+}
+
+.nav-1 {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    justify-content: center;
+}
+
+.fa-backward {
+    font-size: 30px;
+    position: relative;
+    color: rgb(255, 253, 253);
+    cursor: pointer;
+    animation: ani 2s ease-in infinite;
+}
+
+@keyframes ani {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(-12px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.sect2-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sect2-nav img {
+    width: 70px;
+    height: 70px;
+}
+
+.sect2-nav h1 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+.sect2 {
+    padding: 10px 50px 30px 50px;
+}
+
+.sect2-2 img {
+    widows: 180px;
+    height: 300px;
+}
+
+.sect2-1 {
+    display: flex;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6), -3px -3px 10px rgba(0, 0, 0, 0.6);
+}
+
+.sect2-2 h2 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(213, 238, 202);
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.sect2-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(95, 101, 94, 0.6));
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 50%;
+}
+
+.sect2-3 {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+/* rightside */
+
+.sect2-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sect2-3-1 h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: rgb(52, 72, 42);
+    letter-spacing: 1px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.sect2-3-2-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sect2-3-2-2 {
+    display: flex;
+    margin: 5px 30px;
+    flex-direction: column;
+}
+
+.sect2-3-2-2 label {
+    color: rgb(52, 72, 42);
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control {
+    width: 197px !important;
+    border: none !important;
+    border-bottom: 1px solid rgb(52, 72, 42) !important;
+    border-radius: 0px !important;
+    padding: 0px 2px 0px 46px !important;
+    height: 30px !important;
+}
+
+
+.flag-dropdown {
+    border: none !important;
+    padding: 0px !important;
+    border-bottom: 1px solid rgb(52, 72, 42) !important;
+    background-color: none !important;
+    border-radius: 0px !important;
+}
+
+.sect2-3-2-2 input {
+    width: 100%;
+    padding: 3px 2px 3px 1px;
+    border: none;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    outline: none;
+    border-bottom: 1px solid rgb(52, 72, 42);
+}
+
+.csz {
+    margin-top: 20px;
+}
+
+
+
+.coun,
+.sta {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 150px;
+    padding: 2px 5px;
+}
+
+.coun {
+    width: 150px;
+}
+
+.pin {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pin input {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100px;
+    padding: 2px 5px;
+}
+
+.sect2-3-2-1 span {
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: rgba(234, 28, 28, 0.6);
+    height: 15px;
+}
+
+.btn {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.butt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    padding: 7px 15px;
+    cursor: pointer;
+    border: 1px solid rgb(52, 72, 42);
+    background: linear-gradient(160deg, rgba(22, 48, 18, 0.6), rgba(47, 197, 24, 0.6));
+}
+
+.butt:hover {
+    background: linear-gradient(160deg, rgba(47, 197, 24, 0.6), rgba(22, 48, 18, 0.6));
+    box-shadow: -4px 4px 2px rgb(52, 72, 42);
+}
+
+.butt:active {
+    box-shadow: inset -2px 2px 2px rgb(52, 72, 42);
+}
